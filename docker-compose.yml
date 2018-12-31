@@ -1,4 +1,4 @@
-version: "3"
+version: "3.5"
 
 services:
   react_node:
@@ -6,3 +6,5 @@ services:
     tty: true
     volumes:
       - ./:/app
+    ports:
+      - "1277.0.0.1:3333:3333"
